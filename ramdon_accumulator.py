@@ -1,9 +1,11 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 # Programa que devuelve suma acumulada antes de sobrepasar los 10000
-# @author: Gonzalo Chacaltana B <gchacaltanab@gmail.com>
+# @author: Gonzalo Chacaltana Buleje <gchacaltanab@outlook.com>
 import random
 
 def ramdon_accumulate(limite):
-    """Funcion que devuelve suma acumulada"""
+    """Función que devuelve suma acumulada"""
     suma = 0
     value = 0
 
@@ -13,5 +15,9 @@ def ramdon_accumulate(limite):
 
     return suma - value
 
-suma = ramdon_accumulate(10000)
-print "Suma acumulada : " + str(suma)
+# main del programa
+if __name__ == "__main__":
+
+    suma = ramdon_accumulate(10000)
+    print "Suma acumulada : " + str(suma)
+
